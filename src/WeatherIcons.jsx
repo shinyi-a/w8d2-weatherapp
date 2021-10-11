@@ -3,7 +3,7 @@ import React from 'react';
 function WeatherIcons(props) {
     return (
         <div>
-            <div class="weather">
+            <div className="weather">
                 <img
                 src={props.img}
                 alt={props.time}
